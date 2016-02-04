@@ -1,4 +1,4 @@
---Generation
+--Development branch
 minetest.register_ore({
 	ore_type       = "scatter",
 	ore            = "gommaronte:gommaronte_ore_large",
