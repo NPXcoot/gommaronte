@@ -113,10 +113,6 @@ minetest.register_craftitem("gommaronte:gommaronte_gem", {
 })
 
 --Tools
---Taals
---Teels
---Tiils
---Tuuls
 minetest.register_tool("gommaronte:gommaronte_pick", {
 	description = "Piccone di Gommaronte",
 	inventory_image = "gommaronte_pick.png",
