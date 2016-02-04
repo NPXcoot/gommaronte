@@ -121,10 +121,10 @@ minetest.register_tool("gommaronte:gommaronte_pick", {
 	description = "Piccone di Gommaronte",
 	inventory_image = "gommaronte_pick.png",
 	tool_capabilities = {
-		full_punch_interval = 20.0,
-		max_drop_level=20,
+		full_punch_interval = 0.2,
+		max_drop_level=0,
 		groupcaps={
-			cracky = {times={[1]=20.00, [2]=20.25, [3]=20.50}, uses=100, maxlevel=20},
+			cracky = {times={[1]=0.30, [2]=0.25, [3]=0.50}, uses=100, maxlevel=20},
 		},
 		damage_groups = {fleshy=60},
 	},
@@ -145,7 +145,7 @@ minetest.register_tool("gommaronte:fuffo_pick", {
 	description = "Picconfuffo",
 	inventory_image = "fuffo_pick.png",
 	tool_capabilities = {
-		full_punch_interval = 10.0,
+		full_punch_interval = 0.0,
 		max_drop_level=10,
 		groupcaps={
 			cracky = {times={[1]=0.10, [2]=0.10, [3]=0.10}, uses=500, maxlevel=3},
@@ -212,7 +212,7 @@ minetest.register_tool("gommaronte:gommaronte_sword", {
 	description = "Fendente del Rinoceronte",
 	inventory_image = "gommaronte_sword.png",
 	tool_capabilities = {
-		full_punch_interval = 1.0,
+		full_punch_interval = 0.30,
 		max_drop_level=1,
 		groupcaps={
 			snappy={times={[1]=3.5, [2]=3.20, [3]=1.35}, uses=30, maxlevel=2},
